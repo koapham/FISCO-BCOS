@@ -5,7 +5,7 @@ WORKDIR /
 
 ARG SOURCE_BRANCH
 ENV DEBIAN_FRONTEND=noninteractive \
-    SOURCE=${SOURCE_BRANCH:-master}
+    SOURCE=${SOURCE_BRANCH:-main}
 
 RUN apt-get -q update && apt-get install -qy --no-install-recommends \
     git clang make build-essential cmake libssl-dev zlib1g-dev ca-certificates \
@@ -15,7 +15,7 @@ RUN apt-get -q update && apt-get install -qy --no-install-recommends \
     && dpkg-reconfigure --frontend noninteractive tzdata \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/FISCO-BCOS/FISCO-BCOS.git && cd FISCO-BCOS \
+RUN git clone https://github.com/koapham/FISCO-BCOS.git && cd FISCO-BCOS \
     && git checkout ${SOURCE} && cmake . && make -j2 && strip bin/fisco-bcos
 
 FROM ubuntu:18.04
