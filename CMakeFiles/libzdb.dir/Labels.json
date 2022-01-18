@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/cncl/FISCO-BCOS/CMakeFiles/libzdb"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/CMakeFiles/libzdb.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/CMakeFiles/libzdb-complete.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/libzdb-stamp/libzdb-install.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/libzdb-stamp/libzdb-mkdir.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/libzdb-stamp/libzdb-download.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/libzdb-stamp/libzdb-update.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/libzdb-stamp/libzdb-patch.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/libzdb-stamp/libzdb-configure.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/libzdb-stamp/libzdb-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libzdb"
+		],
+		"name" : "libzdb"
+	}
+}

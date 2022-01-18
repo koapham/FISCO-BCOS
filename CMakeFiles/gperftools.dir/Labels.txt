@@ -1,0 +1,13 @@
+# Target labels
+ gperftools
+# Source files and their labels
+/home/cncl/FISCO-BCOS/CMakeFiles/gperftools
+/home/cncl/FISCO-BCOS/CMakeFiles/gperftools.rule
+/home/cncl/FISCO-BCOS/CMakeFiles/gperftools-complete.rule
+/home/cncl/FISCO-BCOS/deps/src/gperftools-stamp/gperftools-install.rule
+/home/cncl/FISCO-BCOS/deps/src/gperftools-stamp/gperftools-mkdir.rule
+/home/cncl/FISCO-BCOS/deps/src/gperftools-stamp/gperftools-download.rule
+/home/cncl/FISCO-BCOS/deps/src/gperftools-stamp/gperftools-update.rule
+/home/cncl/FISCO-BCOS/deps/src/gperftools-stamp/gperftools-patch.rule
+/home/cncl/FISCO-BCOS/deps/src/gperftools-stamp/gperftools-configure.rule
+/home/cncl/FISCO-BCOS/deps/src/gperftools-stamp/gperftools-build.rule

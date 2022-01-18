@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/cncl/FISCO-BCOS/CMakeFiles/leveldb"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/CMakeFiles/leveldb.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/CMakeFiles/leveldb-complete.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/leveldb-stamp/leveldb-install.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/leveldb-stamp/leveldb-mkdir.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/leveldb-stamp/leveldb-download.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/leveldb-stamp/leveldb-update.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/leveldb-stamp/leveldb-patch.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/leveldb-stamp/leveldb-configure.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/leveldb-stamp/leveldb-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"leveldb"
+		],
+		"name" : "leveldb"
+	}
+}

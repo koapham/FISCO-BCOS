@@ -1,0 +1,13 @@
+# Target labels
+ mpir
+# Source files and their labels
+/home/cncl/FISCO-BCOS/CMakeFiles/mpir
+/home/cncl/FISCO-BCOS/CMakeFiles/mpir.rule
+/home/cncl/FISCO-BCOS/CMakeFiles/mpir-complete.rule
+/home/cncl/FISCO-BCOS/deps/src/mpir-stamp/mpir-install.rule
+/home/cncl/FISCO-BCOS/deps/src/mpir-stamp/mpir-mkdir.rule
+/home/cncl/FISCO-BCOS/deps/src/mpir-stamp/mpir-download.rule
+/home/cncl/FISCO-BCOS/deps/src/mpir-stamp/mpir-update.rule
+/home/cncl/FISCO-BCOS/deps/src/mpir-stamp/mpir-patch.rule
+/home/cncl/FISCO-BCOS/deps/src/mpir-stamp/mpir-configure.rule
+/home/cncl/FISCO-BCOS/deps/src/mpir-stamp/mpir-build.rule

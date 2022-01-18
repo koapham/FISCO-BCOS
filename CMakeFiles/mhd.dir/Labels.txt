@@ -1,0 +1,13 @@
+# Target labels
+ mhd
+# Source files and their labels
+/home/cncl/FISCO-BCOS/CMakeFiles/mhd
+/home/cncl/FISCO-BCOS/CMakeFiles/mhd.rule
+/home/cncl/FISCO-BCOS/CMakeFiles/mhd-complete.rule
+/home/cncl/FISCO-BCOS/deps/src/mhd-stamp/mhd-install.rule
+/home/cncl/FISCO-BCOS/deps/src/mhd-stamp/mhd-mkdir.rule
+/home/cncl/FISCO-BCOS/deps/src/mhd-stamp/mhd-download.rule
+/home/cncl/FISCO-BCOS/deps/src/mhd-stamp/mhd-update.rule
+/home/cncl/FISCO-BCOS/deps/src/mhd-stamp/mhd-patch.rule
+/home/cncl/FISCO-BCOS/deps/src/mhd-stamp/mhd-configure.rule
+/home/cncl/FISCO-BCOS/deps/src/mhd-stamp/mhd-build.rule

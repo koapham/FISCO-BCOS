@@ -1,0 +1,13 @@
+# Target labels
+ evmc
+# Source files and their labels
+/home/cncl/FISCO-BCOS/CMakeFiles/evmc
+/home/cncl/FISCO-BCOS/CMakeFiles/evmc.rule
+/home/cncl/FISCO-BCOS/CMakeFiles/evmc-complete.rule
+/home/cncl/FISCO-BCOS/deps/src/evmc-stamp/evmc-install.rule
+/home/cncl/FISCO-BCOS/deps/src/evmc-stamp/evmc-mkdir.rule
+/home/cncl/FISCO-BCOS/deps/src/evmc-stamp/evmc-download.rule
+/home/cncl/FISCO-BCOS/deps/src/evmc-stamp/evmc-update.rule
+/home/cncl/FISCO-BCOS/deps/src/evmc-stamp/evmc-patch.rule
+/home/cncl/FISCO-BCOS/deps/src/evmc-stamp/evmc-configure.rule
+/home/cncl/FISCO-BCOS/deps/src/evmc-stamp/evmc-build.rule

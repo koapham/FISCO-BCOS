@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/cncl/FISCO-BCOS/CMakeFiles/boost"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/CMakeFiles/boost.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/CMakeFiles/boost-complete.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/boost-stamp/boost-install.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/boost-stamp/boost-mkdir.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/boost-stamp/boost-download.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/boost-stamp/boost-update.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/boost-stamp/boost-patch.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/boost-stamp/boost-configure.rule"
+		},
+		{
+			"file" : "/home/cncl/FISCO-BCOS/deps/src/boost-stamp/boost-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"boost"
+		],
+		"name" : "boost"
+	}
+}

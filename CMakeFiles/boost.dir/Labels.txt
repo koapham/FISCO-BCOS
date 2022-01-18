@@ -1,0 +1,13 @@
+# Target labels
+ boost
+# Source files and their labels
+/home/cncl/FISCO-BCOS/CMakeFiles/boost
+/home/cncl/FISCO-BCOS/CMakeFiles/boost.rule
+/home/cncl/FISCO-BCOS/CMakeFiles/boost-complete.rule
+/home/cncl/FISCO-BCOS/deps/src/boost-stamp/boost-install.rule
+/home/cncl/FISCO-BCOS/deps/src/boost-stamp/boost-mkdir.rule
+/home/cncl/FISCO-BCOS/deps/src/boost-stamp/boost-download.rule
+/home/cncl/FISCO-BCOS/deps/src/boost-stamp/boost-update.rule
+/home/cncl/FISCO-BCOS/deps/src/boost-stamp/boost-patch.rule
+/home/cncl/FISCO-BCOS/deps/src/boost-stamp/boost-configure.rule
+/home/cncl/FISCO-BCOS/deps/src/boost-stamp/boost-build.rule

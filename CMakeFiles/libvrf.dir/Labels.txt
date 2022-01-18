@@ -1,0 +1,13 @@
+# Target labels
+ libvrf
+# Source files and their labels
+/home/cncl/FISCO-BCOS/CMakeFiles/libvrf
+/home/cncl/FISCO-BCOS/CMakeFiles/libvrf.rule
+/home/cncl/FISCO-BCOS/CMakeFiles/libvrf-complete.rule
+/home/cncl/FISCO-BCOS/deps/src/libvrf-stamp/libvrf-install.rule
+/home/cncl/FISCO-BCOS/deps/src/libvrf-stamp/libvrf-mkdir.rule
+/home/cncl/FISCO-BCOS/deps/src/libvrf-stamp/libvrf-download.rule
+/home/cncl/FISCO-BCOS/deps/src/libvrf-stamp/libvrf-update.rule
+/home/cncl/FISCO-BCOS/deps/src/libvrf-stamp/libvrf-patch.rule
+/home/cncl/FISCO-BCOS/deps/src/libvrf-stamp/libvrf-configure.rule
+/home/cncl/FISCO-BCOS/deps/src/libvrf-stamp/libvrf-build.rule
