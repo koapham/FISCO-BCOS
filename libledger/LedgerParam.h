@@ -231,7 +231,7 @@ private:
     void setEVMFlags(boost::property_tree::ptree const& _pt);
     void parsePublicKeyListOfSection(dev::h512s& _nodeList, boost::property_tree::ptree const& _pt,
         std::string const& _sectionName, std::string const& _subSectionName);
-    void LedgerParam::parseShardListOfSection(std::vector<std::vector<int>> _shardList, 
+    void parseShardListOfSection(std::vector<std::vector<int>> _shardList, 
         boost::property_tree::ptree const& _pt, std::string const& _sectionName,
         std::string const& _subSectionName);
 
