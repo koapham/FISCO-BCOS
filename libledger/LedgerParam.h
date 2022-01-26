@@ -55,6 +55,7 @@ struct ConsensusParam
     std::string consensusType;
     dev::h512s sealerList = dev::h512s();
     dev::h512s observerList = dev::h512s();
+    std::vector<std::vector<int>> shardList;
     // default consensus timeout time is 3s
     int64_t consensusTimeout = 3;
     int64_t maxTransactions;
@@ -230,6 +231,9 @@ private:
     void setEVMFlags(boost::property_tree::ptree const& _pt);
     void parsePublicKeyListOfSection(dev::h512s& _nodeList, boost::property_tree::ptree const& _pt,
         std::string const& _sectionName, std::string const& _subSectionName);
+    void LedgerParam::parseShardListOfSection(std::vector<std::vector<int>> _shardList, 
+        boost::property_tree::ptree const& _pt, std::string const& _sectionName,
+        std::string const& _subSectionName);
 
 private:
     dev::GROUP_ID m_groupID;

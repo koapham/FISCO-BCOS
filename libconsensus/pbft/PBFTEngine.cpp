@@ -587,6 +587,7 @@ bool PBFTEngine::sendMsg(dev::network::NodeID const& nodeId, unsigned const& pac
     return false;
 }
 
+// TODO @Khoa
 /**
  * @brief: broadcast specified message to all-peers with cache-filter and specified filter
  *         broadcast solutions:
@@ -1026,6 +1027,8 @@ void PBFTEngine::clearPreRawPrepare()
         m_partiallyPrepareCache->clearPreRawPrepare();
     }
 }
+
+// TODO: @khoa
 
 /**
  * @brief: handle the prepare request:
@@ -1706,6 +1709,7 @@ void PBFTEngine::checkTimeout()
         m_onViewChange();
 }
 
+// TODO: @khoa
 void PBFTEngine::handleMsg(PBFTMsgPacket::Ptr pbftMsg)
 {
     Guard l(m_mutex);

@@ -27,6 +27,7 @@ using namespace dev::eth;
 using namespace dev::consensus;
 using namespace dev::p2p;
 using namespace dev::network;
+// TODO @Khoa
 std::pair<bool, IDXTYPE> RotatingPBFTEngine::getLeader() const
 {
     // this node doesn't located in the chosed consensus node list

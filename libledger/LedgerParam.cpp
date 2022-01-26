@@ -38,7 +38,7 @@ using namespace dev;
 namespace dev
 {
 namespace ledger
-{
+{ // TODO
 void LedgerParam::parseGenesisConfig(const std::string& _genesisFile)
 {
     try
@@ -462,6 +462,7 @@ void LedgerParam::initConsensusConfig(ptree const& pt)
                     std::to_string(dev::precompiled::RPBFT_EPOCH_BLOCK_NUM_MIN) + "!"));
         }
     }
+    parseShardListOfSection(mutableConsensusParam().shardList, pt, "shard", "shard.");
     LedgerParam_LOG(DEBUG) << LOG_BADGE("initConsensusConfig")
                            << LOG_KV("epochSealerNum", mutableConsensusParam().epochSealerNum)
                            << LOG_KV("epochBlockNum", mutableConsensusParam().epochBlockNum);
@@ -743,6 +744,39 @@ void LedgerParam::parseSDKAllowList(dev::h512s& _nodeList, boost::property_tree:
     bool enableSDKAllowListControl = (_nodeList.size() > 0);
     LedgerParam_LOG(INFO) << LOG_DESC("parseSDKAllowList") << LOG_KV("sdkAllowList", _nodeList)
                           << LOG_KV("enableSDKAllowListControl", enableSDKAllowListControl);
+}
+
+void LedgerParam::parseShardListOfSection(std::vector<std::vector<int>> _shardList, 
+    boost::property_tree::ptree const& _pt, std::string const& _sectionName,
+    std::string const& _subSectionName)
+{
+    if (!_pt.get_child_optional(_sectionName))
+    {
+        LedgerParam_LOG(DEBUG) << LOG_DESC("parseShardListOfSection return for empty config")
+                               << LOG_KV("sectionName", _sectionName);
+        return;
+    }
+    for (auto const& it : _pt.get_child(_sectionName))
+    {
+        if (it.first.find(_subSectionName) != 0)
+        {
+            continue;
+        }
+        std::string data = it.second.data();
+        std::vector<int> nodeIdxList;
+        std::stringstream ss(data);
+
+        for (int i; ss >> i;) {
+            nodeIdxList.push_back(i);    
+            if (ss.peek() == ',')
+                ss.ignore();
+        }
+
+        LedgerParam_LOG(INFO) << LOG_BADGE("parseShardListOfSection")
+                              << LOG_KV("sectionName", _sectionName) << LOG_KV("it.first", data);
+    }
+    LedgerParam_LOG(INFO) << LOG_BADGE("parseShardListOfSection")
+                          << LOG_KV("totalNumberOfShard", _shardList.size());
 }
 
 }  // namespace ledger
